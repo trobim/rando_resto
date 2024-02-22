@@ -2,7 +2,7 @@ const axios = require('axios'); // We'll use axios to make HTTP requests
 
 exports.handler = async function(event) {
   // Replace 'YOUR_BASE_ID' and 'YOUR_TABLE_NAME' with your actual Airtable Base ID and Table Name
-  const URL = `https://api.airtable.com/v0/appmncgSEVQ1n0qQ0/db_resto`;
+  const URL = `https://api.airtable.com/v0/appmncgSEVQ1n0qQ0/tbl6jy5YE156eCJoq`;
 
   try {
     const { data } = await axios.get(URL, {
