@@ -4,33 +4,40 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fetchData() {
-    // Airtable API details
-    const baseId = 'appmncgSEVQ1n0qQ0'; // Replace with your actual Base ID
-    const tableIdOrName = 'tbl6jy5YE156eCJoq'; // Replace with your actual Table ID or Name
-    const recordId = ''; // Optional: Use if you want to fetch a specific record
-    const endpoint = `https://api.airtable.com/v0/${baseId}/${tableIdOrName}${recordId ? `/${recordId}` : ''}`;
+    // Endpoint of the Netlify serverless function
+    const functionEndpoint = '/.netlify/functions/fetchAirtable';
 
-    // Fetch the API Key securely
-    const apiKey = 'YOUR_AIRTABLE_API_KEY'; // Use environment variables or securely fetch your API key
-
-    fetch(endpoint, {
-        headers: {
-            'Authorization': `Bearer ${apiKey}`
-        }
-    })
-        .then(response => response.json())
+    fetch(functionEndpoint)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
             console.log(data); // For debugging
+            // Assuming your serverless function returns the Airtable records directly
             displayData(data.records);
         })
-        .catch(error => console.error('Error:', error));
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Failed to fetch data. Please check the console for more information.');
+        });
 }
 
 function displayData(records) {
     const container = document.getElementById('data-container');
     container.innerHTML = ''; // Clear previous results
+
+    // Check if records are available
+    if (!records || records.length === 0) {
+        container.innerHTML = '<p>No records found.</p>';
+        return;
+    }
+
     records.forEach(record => {
         const div = document.createElement('div');
+        // Customize this line to match the structure of your Airtable data
         div.textContent = `Record ID: ${record.id}, Data: ${JSON.stringify(record.fields)}`;
         container.appendChild(div);
     });
