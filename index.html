@@ -2,14 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Randomizer</title>
+    <title>Fetch Restaurant Data</title>
 </head>
 <body>
-    <h1>Restaurant Randomizer</h1>
-    <button id="randomizeRestaurant">Randomize Restaurant</button>
-    <div id="result"></div>
+    <h1>Restaurant List</h1>
+    <button id="fetchData">Fetch Restaurants</button>
+    <div id="restaurants"></div>
 
-    <script src="script.js"></script>
+    <script>
+        document.getElementById('fetchData').addEventListener('click', function() {
+            fetch('https://your-deployment-url.com/.netlify/functions/getRestaurants')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const restaurantsDiv = document.getElementById('restaurants');
+                    restaurantsDiv.innerHTML = ''; // Clear previous results
+                    data.forEach(record => {
+                        const div = document.createElement('div');
+                        div.textContent = record.fields.Name; // Assuming your records have a 'Name' field
+                        restaurantsDiv.appendChild(div);
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
 </body>
 </html>
