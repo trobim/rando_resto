@@ -1,16 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetchData();
+    const fetchButton = document.getElementById('fetch-button');
+    fetchButton.addEventListener('click', fetchData);
 });
 
 function fetchData() {
-    // Fetch the API Key from a global variable or directly if not sensitive
-    const apiKey = 'pataeH8kJj5GBV6HR.ee9f5dd8ef23e8ab741c753d28608f40fbd75efe17da12fdaa792d459d5e3f19'; // Replace this with your actual API key if not using environment variables for local development
+    // Airtable API details
+    const baseId = 'appmncgSEVQ1n0qQ0'; // Replace with your actual Base ID
+    const tableIdOrName = 'tbl6jy5YE156eCJoq'; // Replace with your actual Table ID or Name
+    const recordId = ''; // Optional: Use if you want to fetch a specific record
+    const endpoint = `https://api.airtable.com/v0/${baseId}/${tableIdOrName}${recordId ? `/${recordId}` : ''}`;
 
-    // Airtable endpoint
-    const endpoint = 'https://api.airtable.com/v0/appmncgSEVQ1n0qQ0/tbl6jy5YE156eCJoq';
-    const url = `${endpoint}?api_key=${apiKey}`;
+    // Fetch the API Key securely
+    const apiKey = 'YOUR_AIRTABLE_API_KEY'; // Use environment variables or securely fetch your API key
 
-    fetch(url)
+    fetch(endpoint, {
+        headers: {
+            'Authorization': `Bearer ${apiKey}`
+        }
+    })
         .then(response => response.json())
         .then(data => {
             console.log(data); // For debugging
