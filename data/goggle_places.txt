@@ -1,0 +1,6 @@
+google_place api key: AIzaSyAtIrQHmgJmY5uN-MWn_9DNBm8OXLPxJks 
+
+api request: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=46.51487997877114,6.615550564714969&radius=1500&type=restaurant&key=AIzaSyAtIrQHmgJmY5uN-MWn_9DNBm8OXLPxJks
+api request next page token: https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=NEXT_PAGE_TOKEN&key=YOUR_API_KEY
+
+46.51487997877114, 6.615550564714969
