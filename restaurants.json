@@ -2,7 +2,7 @@
   {
     "name": "Hôtel du Port",
     "rating": 4.2,
-    "adress": "Place du Port 5, Lausanne",
+    "address": "Place du Port 5, Lausanne",
     "distance": "3.7 km",
     "duration": "9 mins",
     "website": "http://www.hotel-du-port.ch/",
@@ -14,7 +14,7 @@
   {
     "name": "Lausanne Palace",
     "rating": 4.6,
-    "adress": "Rue du Grand-Chêne 7-9, Lausanne",
+    "address": "Rue du Grand-Chêne 7-9, Lausanne",
     "distance": "1.9 km",
     "duration": "7 mins",
     "website": "http://www.lausanne-palace.ch/",
@@ -26,7 +26,7 @@
   {
     "name": "Alpha by Fassbind",
     "rating": 4.1,
-    "adress": "Rue du Petit-Chêne 34, Lausanne",
+    "address": "Rue du Petit-Chêne 34, Lausanne",
     "distance": "2.9 km",
     "duration": "11 mins",
     "website": "http://www.byfassbind.com/",
@@ -38,7 +38,7 @@
   {
     "name": "Angleterre & Résidence",
     "rating": 4.3,
-    "adress": "Place du Port 11, Lausanne",
+    "address": "Place du Port 11, Lausanne",
     "distance": "1.6 km",
     "duration": "5 mins",
     "website": "http://www.angleterre-residence.ch/",
@@ -50,7 +50,7 @@
   {
     "name": "Beau-Rivage Palace",
     "rating": 4.7,
-    "adress": "Chemin de Beau-Rivage 21, Lausanne",
+    "address": "Chemin de Beau-Rivage 21, Lausanne",
     "distance": "1.8 km",
     "duration": "6 mins",
     "website": "http://www.brp.ch/",
@@ -62,7 +62,7 @@
   {
     "name": "46a | apart'hôtel",
     "rating": 3.4,
-    "adress": "Avenue de Rhodanie 46a, Lausanne",
+    "address": "Avenue de Rhodanie 46a, Lausanne",
     "distance": "0.9 km",
     "duration": "3 mins",
     "website": "http://www.46a.ch/",
@@ -74,7 +74,7 @@
   {
     "name": "Le Ticino - Restaurant Lausanne",
     "rating": 4.3,
-    "adress": "Place de la Gare 12, Lausanne",
+    "address": "Place de la Gare 12, Lausanne",
     "distance": "1.7 km",
     "duration": "5 mins",
     "website": "http://leticino.ch/",
@@ -86,7 +86,7 @@
   {
     "name": "Théâtre Vidy-Lausanne",
     "rating": 4.5,
-    "adress": "Avenue Emile-Henri-Jaques-Dalcroze 5, Lausanne",
+    "address": "Avenue Emile-Henri-Jaques-Dalcroze 5, Lausanne",
     "distance": "1.2 km",
     "duration": "4 mins",
     "website": "https://vidy.ch/",
@@ -98,7 +98,7 @@
   {
     "name": "La molisana",
     "rating": 4.4,
-    "adress": "Avenue de Tivoli 68, Lausanne",
+    "address": "Avenue de Tivoli 68, Lausanne",
     "distance": "1.7 km",
     "duration": "7 mins",
     "website": "http://www.molisana.ch/",
@@ -110,7 +110,7 @@
   {
     "name": "Nandanam",
     "rating": 4.4,
-    "adress": "Avenue Louis-Ruchonnet 11, Lausanne",
+    "address": "Avenue Louis-Ruchonnet 11, Lausanne",
     "distance": "1.5 km",
     "duration": "5 mins",
     "website": "http://www.nandanam.ch/",
@@ -122,7 +122,7 @@
   {
     "name": "MYŌ Sushi Bar",
     "rating": 4.4,
-    "adress": "Allée Ernest-Ansermet 1, Lausanne",
+    "address": "Allée Ernest-Ansermet 1, Lausanne",
     "distance": "2.0 km",
     "duration": "7 mins",
     "website": "http://www.myo.ch/",
@@ -134,7 +134,7 @@
   {
     "name": "Le Milan",
     "rating": 4.4,
-    "adress": "Boulevard de Grancy 54, Lausanne",
+    "address": "Boulevard de Grancy 54, Lausanne",
     "distance": "1.2 km",
     "duration": "4 mins",
     "website": "https://www.lemilan.ch/",
@@ -146,7 +146,7 @@
   {
     "name": "Hotel Royal Savoy Lausanne",
     "rating": 4.6,
-    "adress": "Avenue d'Ouchy 40, Lausanne",
+    "address": "Avenue d'Ouchy 40, Lausanne",
     "distance": "1.2 km",
     "duration": "5 mins",
     "website": "https://royalsavoylausanne.com/fr",
@@ -158,7 +158,7 @@
   {
     "name": "Restaurant Le Boccalino",
     "rating": 4,
-    "adress": "Avenue d'Ouchy 76, Lausanne",
+    "address": "Avenue d'Ouchy 76, Lausanne",
     "distance": "1.5 km",
     "duration": "4 mins",
     "website": "https://www.boccalino.ch/",
@@ -170,7 +170,7 @@
   {
     "name": "Tacos Bar",
     "rating": 3.9,
-    "adress": "Rue de Genève 17, Lausanne",
+    "address": "Rue de Genève 17, Lausanne",
     "distance": "1.9 km",
     "duration": "8 mins",
     "website": "http://tacos-bar.ch/",
@@ -182,7 +182,7 @@
   {
     "name": "Restaurant Pizzeria Bella Vita",
     "rating": 3.8,
-    "adress": "Avenue de la Gare 52, Lausanne",
+    "address": "Avenue de la Gare 52, Lausanne",
     "distance": "1.8 km",
     "duration": "7 mins",
     "website": "https://www.restaurant-bellavita.com/",
@@ -194,7 +194,7 @@
   {
     "name": "Brasserie Grand-Chêne",
     "rating": 4.1,
-    "adress": "Rue du Grand-Chêne 7-9, Lausanne",
+    "address": "Rue du Grand-Chêne 7-9, Lausanne",
     "distance": "1.9 km",
     "duration": "7 mins",
     "website": "https://www.lausanne-palace.ch/restaurants-bars/brasserie-grand-chene/",
@@ -206,7 +206,7 @@
   {
     "name": "Petit Boeuf",
     "rating": 4.3,
-    "adress": "Avenue Vingt-Quatre-Janvier 4, Lausanne",
+    "address": "Avenue Vingt-Quatre-Janvier 4, Lausanne",
     "distance": "2.4 km",
     "duration": "10 mins",
     "website": "https://petitboeuf.ch/",
@@ -218,7 +218,7 @@
   {
     "name": "Au canard pekinois",
     "rating": 4.5,
-    "adress": "Place Chauderon 16, Lausanne",
+    "address": "Place Chauderon 16, Lausanne",
     "distance": "2.1 km",
     "duration": "9 mins",
     "website": "http://www.au-canard-pekinois.ch/",
@@ -230,7 +230,7 @@
   {
     "name": "Diabolo Pizza",
     "rating": 3.8,
-    "adress": "Avenue William-Fraisse 9, Lausanne",
+    "address": "Avenue William-Fraisse 9, Lausanne",
     "distance": "1.2 km",
     "duration": "4 mins",
     "website": "https://www.diabolopizza.ch/",
@@ -242,7 +242,7 @@
   {
     "name": "Café Romand",
     "rating": 3.6,
-    "adress": "Place Saint-François 2, Lausanne",
+    "address": "Place Saint-François 2, Lausanne",
     "distance": "2.1 km",
     "duration": "7 mins",
     "website": "http://www.cafe-romand.ch/",
@@ -254,7 +254,7 @@
   {
     "name": "Holy Cow!",
     "rating": 4.3,
-    "adress": "Rue des Terreaux 10, Lausanne",
+    "address": "Rue des Terreaux 10, Lausanne",
     "distance": "2.9 km",
     "duration": "11 mins",
     "website": "http://holycow.ch/",
@@ -266,7 +266,7 @@
   {
     "name": "Base Bar",
     "rating": 4.2,
-    "adress": "Avenue de Sévelin 46, Lausanne",
+    "address": "Avenue de Sévelin 46, Lausanne",
     "distance": "1.7 km",
     "duration": "6 mins",
     "website": "http://basebarlausanne.ch/",
@@ -278,7 +278,7 @@
   {
     "name": "Le Kotchi, Sushis-Ramen-Udon-Bento",
     "rating": 4.6,
-    "adress": "Avenue Frédéric-César-de-la-Harpe 17A, Lausanne",
+    "address": "Avenue Frédéric-César-de-la-Harpe 17A, Lausanne",
     "distance": "1.0 km",
     "duration": "3 mins",
     "website": "http://www.lekotchi.ch/",
@@ -290,7 +290,7 @@
   {
     "name": "Il lido",
     "rating": 3.6,
-    "adress": "Avenue Emile-Henri-Jaques-Dalcroze 9, Lausanne",
+    "address": "Avenue Emile-Henri-Jaques-Dalcroze 9, Lausanne",
     "distance": "1.2 km",
     "duration": "4 mins",
     "website": "http://www.il-lido.ch/",
@@ -302,7 +302,7 @@
   {
     "name": "La Bruschetta",
     "rating": 4.4,
-    "adress": "Avenue de la Gare 20, Lausanne",
+    "address": "Avenue de la Gare 20, Lausanne",
     "distance": "2.0 km",
     "duration": "7 mins",
     "website": "https://www.instagram.com/labruschettada/",
@@ -314,7 +314,7 @@
   {
     "name": "Tropicana Restaurant",
     "rating": 3.9,
-    "adress": "Place Saint-François 2, Lausanne",
+    "address": "Place Saint-François 2, Lausanne",
     "distance": "2.4 km",
     "duration": "10 mins",
     "website": "http://www.tropicana-restaurant.ch/",
@@ -326,7 +326,7 @@
   {
     "name": "Café de Grancy",
     "rating": 4.1,
-    "adress": "Avenue du Rond-Point 1, Lausanne",
+    "address": "Avenue du Rond-Point 1, Lausanne",
     "distance": "2.0 km",
     "duration": "7 mins",
     "website": "http://www.cafedegrancy.ch/",
@@ -338,7 +338,7 @@
   {
     "name": "Les Brasseurs Lausanne",
     "rating": 4,
-    "adress": "Rue Centrale 4, Lausanne",
+    "address": "Rue Centrale 4, Lausanne",
     "distance": "2.0 km",
     "duration": "8 mins",
     "website": "http://www.les-brasseurs.ch/",
@@ -350,7 +350,7 @@
   {
     "name": "Cavallo Bianco",
     "rating": 3.9,
-    "adress": "Place Chauderon 24, Lausanne",
+    "address": "Place Chauderon 24, Lausanne",
     "distance": "1.6 km",
     "duration": "7 mins",
     "website": "https://yellow.local.ch/d/_ixGPSAeH1HO-cURHjq0bA",
@@ -362,7 +362,7 @@
   {
     "name": "Restaurant de la HEP Vaud #Cours33",
     "rating": 4.3,
-    "adress": "Avenue de Cour 33, Lausanne",
+    "address": "Avenue de Cour 33, Lausanne",
     "distance": "0.6 km",
     "duration": "3 mins",
     "website": "https://www.hepl.ch/cms/accueil/acces-rapide/pratique/restaurant.html",
@@ -374,7 +374,7 @@
   {
     "name": "Le temps est venu",
     "rating": 5,
-    "adress": "Place Chauderon 20, Lausanne",
+    "address": "Place Chauderon 20, Lausanne",
     "distance": "1.9 km",
     "duration": "8 mins",
     "website": "http://www.letempsestvenu.ch/",
@@ -386,7 +386,7 @@
   {
     "name": "La Bavaria - Brasserie Lausanne",
     "rating": 4.3,
-    "adress": "Rue du Petit-Chêne 10, Lausanne",
+    "address": "Rue du Petit-Chêne 10, Lausanne",
     "distance": "2.1 km",
     "duration": "8 mins",
     "website": "https://labavaria.ch/",
@@ -398,7 +398,7 @@
   {
     "name": "Sushiman",
     "rating": 4.4,
-    "adress": "Rue de la Grotte 8, Lausanne",
+    "address": "Rue de la Grotte 8, Lausanne",
     "distance": "2.6 km",
     "duration": "10 mins",
     "website": "http://www.sushiman.ch/",
@@ -410,7 +410,7 @@
   {
     "name": "McDonald’s Restaurant",
     "rating": 3.6,
-    "adress": "Rue Saint-Laurent 20, Lausanne",
+    "address": "Rue Saint-Laurent 20, Lausanne",
     "distance": "2.1 km",
     "duration": "9 mins",
     "website": "https://www.mcdonalds.ch/fr/restaurants/lausanne-st-laurent?utm_source=google&utm_medium=Yext&utm_campaign=780010",
@@ -422,7 +422,7 @@
   {
     "name": "le Pinocchio",
     "rating": 4,
-    "adress": "Avenue Frédéric-César-de-la-Harpe 16, Lausanne",
+    "address": "Avenue Frédéric-César-de-la-Harpe 16, Lausanne",
     "distance": "1.0 km",
     "duration": "3 mins",
     "website": "https://lepinocchio.ch/",
@@ -434,7 +434,7 @@
   {
     "name": "Restaurant Péruvien Chez Loïc Sàrl",
     "rating": 4,
-    "adress": "Avenue de Cour 63, Lausanne",
+    "address": "Avenue de Cour 63, Lausanne",
     "distance": "0.2 km",
     "duration": "1 min",
     "website": "http://www.resto-chezloic.ch/",
@@ -446,7 +446,7 @@
   {
     "name": "Sucré Salé Cour",
     "rating": 4.6,
-    "adress": "Avenue de Cour 80, Lausanne",
+    "address": "Avenue de Cour 80, Lausanne",
     "distance": "0.3 km",
     "duration": "1 min",
     "website": "http://www.sucre-sale.ch/",
@@ -458,7 +458,7 @@
   {
     "name": "Restaurant de Fontenay",
     "rating": 3.9,
-    "adress": "Chemin de Fontenay 7B, Lausanne",
+    "address": "Chemin de Fontenay 7B, Lausanne",
     "distance": "0.7 km",
     "duration": "2 mins",
     "website": "http://www.fontenay.ch/",
@@ -470,7 +470,7 @@
   {
     "name": "Le Mont d'Or",
     "rating": 3.8,
-    "adress": "Chemin de Contigny 1, Lausanne",
+    "address": "Chemin de Contigny 1, Lausanne",
     "distance": "0.6 km",
     "duration": "2 mins",
     "website": "https://www.lemontdor.ch/",
@@ -482,7 +482,7 @@
   {
     "name": "Le Thaï au Lac",
     "rating": 4,
-    "adress": "Avenue Emile-Henri-Jaques-Dalcroze 9, Lausanne",
+    "address": "Avenue Emile-Henri-Jaques-Dalcroze 9, Lausanne",
     "distance": "1.2 km",
     "duration": "4 mins",
     "website": "https://www.thailaulac.ch/",
@@ -494,7 +494,7 @@
   {
     "name": "The Place 2B BIKINI BEACH",
     "rating": 4,
-    "adress": "Avenue Emile-Henri-Jaques-Dalcroze 9, Lausanne",
+    "address": "Avenue Emile-Henri-Jaques-Dalcroze 9, Lausanne",
     "distance": "1.2 km",
     "duration": "4 mins",
     "website": "https://theplace2bikinibeach.ch/",
@@ -506,7 +506,7 @@
   {
     "name": "Jetée de la Compagnie",
     "rating": 4.4,
-    "adress": "Jetée de la compagnie, Lausanne",
+    "address": "Jetée de la compagnie, Lausanne",
     "distance": "1.2 km",
     "duration": "5 mins",
     "website": "http://jeteedelacompagnie.ch/",
@@ -518,7 +518,7 @@
   {
     "name": "Domino's Pizza",
     "rating": 3.1,
-    "adress": "Avenue de Tivoli 70, Lausanne",
+    "address": "Avenue de Tivoli 70, Lausanne",
     "distance": "1.8 km",
     "duration": "7 mins",
     "website": "https://www.dominos.ch/",
@@ -530,7 +530,7 @@
   {
     "name": "Le Montriond",
     "rating": 4.3,
-    "adress": "Avenue Édouard Dapples 25, Lausanne",
+    "address": "Avenue Édouard Dapples 25, Lausanne",
     "distance": "1.2 km",
     "duration": "3 mins",
     "website": "http://www.lemontriond.ch/",
@@ -542,7 +542,7 @@
   {
     "name": "Pizomat",
     "rating": 4.3,
-    "adress": "Allée du Bornan 8, Lausanne",
+    "address": "Allée du Bornan 8, Lausanne",
     "distance": "1.4 km",
     "duration": "5 mins",
     "website": "http://www.pizomat.ch/",
@@ -554,7 +554,7 @@
   {
     "name": "Le Carrousel de Vidy",
     "rating": 3.9,
-    "adress": "Allée du Bornan 8, Lausanne",
+    "address": "Allée du Bornan 8, Lausanne",
     "distance": "1.4 km",
     "duration": "5 mins",
     "website": "http://www.restaurant-carrousel-vidy.ch/",
@@ -566,7 +566,7 @@
   {
     "name": "Bornan",
     "rating": 4.3,
-    "adress": "Allée du Bornan 6, Lausanne",
+    "address": "Allée du Bornan 6, Lausanne",
     "distance": "1.4 km",
     "duration": "5 mins",
     "website": "http://www.cvvidy.ch/",
@@ -578,7 +578,7 @@
   {
     "name": "Le P'tit Vidy",
     "rating": 4.3,
-    "adress": "Avenue de Montoie 53, Lausanne",
+    "address": "Avenue de Montoie 53, Lausanne",
     "distance": "1.2 km",
     "duration": "3 mins",
     "website": "https://yellow.local.ch/d/zM1PhqxOXrX82FkkuxcWUA",
@@ -590,7 +590,7 @@
   {
     "name": "Shell",
     "rating": 3.9,
-    "adress": "Chemin de Mornex 36, Lausanne",
+    "address": "Chemin de Mornex 36, Lausanne",
     "distance": "1.5 km",
     "duration": "6 mins",
     "website": "https://find.shell.com/ch/fuel/10023784-shell-montbenon",
@@ -602,7 +602,7 @@
   {
     "name": "Swisshallal Food Sàrl",
     "rating": 4.3,
-    "adress": "Avenue Louis-Ruchonnet 9, Lausanne",
+    "address": "Avenue Louis-Ruchonnet 9, Lausanne",
     "distance": "1.5 km",
     "duration": "5 mins",
     "website": "http://www.swisshallal.ch/",
@@ -614,7 +614,7 @@
   {
     "name": "Kebab Ouchy",
     "rating": 3.9,
-    "adress": "Place de la Navigation, Lausanne",
+    "address": "Place de la Navigation, Lausanne",
     "distance": "1.1 km",
     "duration": "3 mins",
     "website": "http://kebabouchy.ch/",
@@ -626,7 +626,7 @@
   {
     "name": "Restaurant HOIAN BBQ",
     "rating": 3.9,
-    "adress": "Chemin des Pêcheurs 7, Lausanne",
+    "address": "Chemin des Pêcheurs 7, Lausanne",
     "distance": "1.1 km",
     "duration": "4 mins",
     "website": "https://hoianbbq.ch/",
@@ -638,7 +638,7 @@
   {
     "name": "La Nautica Ouchy",
     "rating": 3.9,
-    "adress": "Chemin des Pêcheurs 7, Lausanne",
+    "address": "Chemin des Pêcheurs 7, Lausanne",
     "distance": "1.1 km",
     "duration": "4 mins",
     "website": "http://www.lanautica.ch/",
@@ -650,7 +650,7 @@
   {
     "name": "Brasserie Saint-Laurent",
     "rating": 4.5,
-    "adress": "Rue Saint-Laurent 16, Lausanne",
+    "address": "Rue Saint-Laurent 16, Lausanne",
     "distance": "2.1 km",
     "duration": "9 mins",
     "website": "http://www.brasserie-saint-laurent.ch/",
@@ -662,7 +662,7 @@
   {
     "name": "Keyann Bistro Libanais",
     "rating": 4.3,
-    "adress": "Avenue Frédéric-César-de-la-Harpe 43B, Lausanne",
+    "address": "Avenue Frédéric-César-de-la-Harpe 43B, Lausanne",
     "distance": "1.4 km",
     "duration": "4 mins",
     "website": "https://bistro-keyann.ch/",
@@ -674,7 +674,7 @@
   {
     "name": "SUSHIZEN Grancy Ramen Bar & Sushi",
     "rating": 4.3,
-    "adress": "Boulevard de Grancy 20, Lausanne",
+    "address": "Boulevard de Grancy 20, Lausanne",
     "distance": "1.8 km",
     "duration": "6 mins",
     "website": "https://www.ramenlausanne.ch/",
@@ -686,7 +686,7 @@
   {
     "name": "Subway",
     "rating": 3.7,
-    "adress": "Rue du Petit-Chêne 38, Lausanne",
+    "address": "Rue du Petit-Chêne 38, Lausanne",
     "distance": "1.7 km",
     "duration": "7 mins",
     "website": "https://restaurants.subway.com/switzerland/lausanne/rue-du-petit-chene-38?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=62177&utm_campaign=evergreen-2020&y_source=1_MTQ5MjY4NDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
@@ -698,7 +698,7 @@
   {
     "name": "McDonald’s",
     "rating": 3.5,
-    "adress": "Place de la Gare 4, Lausanne",
+    "address": "Place de la Gare 4, Lausanne",
     "distance": "1.9 km",
     "duration": "7 mins",
     "website": "https://www.mcdonalds.ch/fr/restaurants/lausanne-gare?utm_source=google&utm_medium=Yext&utm_campaign=780002",
@@ -710,7 +710,7 @@
   {
     "name": "Istanbul Kebab",
     "rating": 3.9,
-    "adress": "Rue du Petit-Chêne 36, Lausanne",
+    "address": "Rue du Petit-Chêne 36, Lausanne",
     "distance": "1.7 km",
     "duration": "7 mins",
     "website": "http://www.istanbul-kebab-lausanne.ch/",

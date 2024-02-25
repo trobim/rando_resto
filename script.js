@@ -1,30 +1,40 @@
 document.addEventListener('DOMContentLoaded', function() {
+    loadRandomRestaurant();
     document.getElementById('randomizeButton').addEventListener('click', loadRandomRestaurant);
 });
 
 function loadRandomRestaurant() {
-    fetch('restaurants.json')
-        .then(response => response.json())
+    // Fetch data from your Netlify function
+    fetch('/.netlify/functions/fetch-restaurants') // Ensure this matches your Netlify function's endpoint
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok: ' + response.statusText);
+            }
+            return response.json();
+        })
         .then(restaurants => {
             const randomIndex = Math.floor(Math.random() * restaurants.length);
             const restaurant = restaurants[randomIndex];
-            displayRestaurant(restaurant);
-        });
+            updateRestaurantInfo(restaurant);
+        })
+        .catch(error => console.error('Error loading restaurant data:', error));
 }
 
-function displayRestaurant(restaurant) {
-    const container = document.getElementById('restaurantContainer');
-    container.innerHTML = `
-        <img src="img/${restaurant['photo reference']}.jpg" alt="${restaurant.name}">
-        <div style="padding: 16px;">
-            <h2>${restaurant.name}</h2>
-            <p>Rating: ${restaurant.rating}</p>
-            <a href="${restaurant.maps}" style="color: blue;">${restaurant.address}</a>
-            <p>${restaurant.distance} - ${restaurant.duration}</p>
-            <div style="display: flex; justify-content: space-around; width: 100%;">
-                <button onclick="window.open('${restaurant.website}', '_blank')">MENU</button>
-                <button onclick="window.location.href='tel:${restaurant['phone number']}'">PHONE</button>
-            </div>
-        </div>
-    `;
+function updateRestaurantInfo(restaurant) {
+    const img = document.getElementById('restaurantImage');
+    // Construct the image source using the name from Airtable and the local /img directory
+    img.src = `/img/${restaurant['photo reference']}.jpg`; // Adjust as necessary
+    img.alt = restaurant.name;
+
+    document.getElementById('restaurantName').textContent = restaurant.name;
+    document.getElementById('restaurantRating').textContent = `Rating: ${restaurant.rating}`;
+
+    const addressLink = document.getElementById('restaurantAddress');
+    addressLink.href = restaurant.maps;
+    addressLink.textContent = restaurant.address;
+
+    document.getElementById('restaurantDistanceDuration').textContent = `${restaurant.distance} - ${restaurant.duration}`;
+
+    document.getElementById('restaurantMenu').onclick = function() { window.open(restaurant.website, '_blank'); };
+    document.getElementById('restaurantPhone').onclick = function() { window.location.href = `tel:${restaurant['phone number']}`; };
 }

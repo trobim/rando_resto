@@ -11,24 +11,34 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 #mainContainer {
     padding: var(--safe-margin);
     box-sizing: border-box;
     max-width: 100%;
-    width: 100vw;
+    width: calc(100vw - (var(--safe-margin) * 2));
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: var(--safe-margin);
 }
 
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+h3{
+    font-size: 16px;
+}
 #restaurantContainer {
     width: 100%;
-    max-width: 600px; /* Adjust based on your preference */
+    max-width: 600px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -37,7 +47,32 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
     margin-bottom: 20px;
+}
+
+#restaurantImage {
+    width: 100%; /* Adjust image width to fill container */
+    max-height: 50%; /* Set max-height to prevent image from overflowing */
+    object-fit: cover; /* Maintain aspect ratio while covering container */
+}
+
+#restaurantDetails {
+    padding: 16px;
+    width: 100%; /* Ensures the details container takes full width */
+    flex: 1; /* Allow the details container to grow to fill available space */
+    display: flex; /* Use flexbox for positioning */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+}
+
+#buttonContainer {
+    display: flex;
+padding: 20px 25px 32px 25px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
 }
 
 button {
@@ -47,13 +82,15 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 4px;
+    background: #505050;
 }
 
 button:hover {
     background-color: #0056b3;
-}
-
-img {
-    width: 100%;
-    height: auto;
 }

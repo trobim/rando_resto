@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Randomizer</title>
+    <title>Resto-Rando</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="mainContainer">
-        <div id="restaurantContainer"></div>
+        <h3>Y fait faim!</h1>
+        <h3>où allons-nous ?</h2>
+        <div id="restaurantContainer">
+            <img id="restaurantImage" src="" alt="Restaurant Image">
+            <div id="restaurantDetails">
+                <h2 id="restaurantName"></h2>
+                <p id="restaurantRating"></p>
+                <a id="restaurantAddress" href=""></a>
+                <p id="restaurantDistanceDuration"></p>
+            </div>
+            <div id="buttonContainer">
+                <button id="restaurantMenu">Menu</button>
+                <button id="restaurantPhone">Phone</button>
+            </div>
+        </div>
         <button id="randomizeButton">Randomize Restaurant</button>
     </div>
 
