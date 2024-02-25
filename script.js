@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     loadRandomRestaurant();
     document.getElementById('randomizeButton').addEventListener('click', loadRandomRestaurant);
+    updateViewportHeight(); // Call this function on initial load
 });
+
+window.addEventListener('resize', updateViewportHeight); // And on every window resize
 
 function loadRandomRestaurant() {
     fetch('https://rando-resto.netlify.app/.netlify/functions/fetch-restaurants')
@@ -35,4 +38,10 @@ function updateRestaurantInfo(restaurant) {
 
     document.getElementById('restaurantMenu').onclick = function() { window.open(restaurant.website, '_blank'); };
     document.getElementById('restaurantPhone').onclick = function() { window.location.href = `tel:${restaurant['phone number']}`; };
+}
+
+// Added function to update viewport height
+function updateViewportHeight() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--mobile-vh', `${vh}px`);
 }
