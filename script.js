@@ -25,11 +25,11 @@ function updateRestaurantInfo(restaurant) {
     img.alt = restaurant.name;
 
     document.getElementById('restaurantName').textContent = restaurant.name;
-    document.getElementById('restaurantRating').textContent = `Rating: ${restaurant.rating}`;
+    document.getElementById('restaurantRating').textContent = `✩ ${restaurant.rating}`;
 
     const addressLink = document.getElementById('restaurantAddress');
     addressLink.href = restaurant.maps;
-    addressLink.textContent = restaurant.address;
+    addressLink.textContent = `${restaurant.address} ➔`;
 
     document.getElementById('restaurantDistanceDuration').textContent = `${restaurant.distance} - ${restaurant.duration}`;
 
