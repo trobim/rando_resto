@@ -1,7 +1,3 @@
-:root {
-    --safe-margin: 20px;
-}
-
 body, html {
     margin: 0;
     padding: 0;
@@ -12,20 +8,32 @@ body, html {
     align-items: center;
     background-color: #f5f5f5;
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+}
+
+.title{
+    color: #181818;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hotel{
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px; /* 158.333% */
 }
 
 #mainContainer {
-    padding: var(--safe-margin);
     box-sizing: border-box;
     max-width: 100%;
-    width: calc(100vw - (var(--safe-margin) * 2));
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
 }
 
 h1, h2 {
@@ -46,33 +54,27 @@ h3{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 100%;
     margin-bottom: 20px;
 }
 
 #restaurantImage {
     width: 100%; /* Adjust image width to fill container */
-    max-height: 50%; /* Set max-height to prevent image from overflowing */
+    max-height: 50vh; /* Set max-height to prevent image from overflowing */
     object-fit: cover; /* Maintain aspect ratio while covering container */
+    max-height:240px ;
+    
 }
 
 #restaurantDetails {
     padding: 16px;
-    width: 100%; /* Ensures the details container takes full width */
-    flex: 1; /* Allow the details container to grow to fill available space */
-    display: flex; /* Use flexbox for positioning */
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center content vertically */
 }
 
 #buttonContainer {
     display: flex;
-padding: 20px 25px 32px 25px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-align-self: stretch;
+    padding: 20px 25px 32px 25px;
+    gap: 16px;
+    margin-top: auto;
 }
 
 button {

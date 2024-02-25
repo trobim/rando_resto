@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadRandomRestaurant() {
-    // Updated to use your specific Netlify site URL
     fetch('https://rando-resto.netlify.app/.netlify/functions/fetch-restaurants')
     .then(response => {
         if (!response.ok) {
@@ -22,7 +21,6 @@ function loadRandomRestaurant() {
 
 function updateRestaurantInfo(restaurant) {
     const img = document.getElementById('restaurantImage');
-    // Ensure the path to your images is correct based on how you store them in your project
     img.src = `/img/${restaurant['photo reference']}.jpg`; // Assuming images are stored in the '/img' directory
     img.alt = restaurant.name;
 
