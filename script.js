@@ -4,26 +4,26 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadRandomRestaurant() {
-    // Fetch data from your Netlify function
-    fetch('/.netlify/functions/fetch-restaurants') // Ensure this matches your Netlify function's endpoint
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok: ' + response.statusText);
-            }
-            return response.json();
-        })
-        .then(restaurants => {
-            const randomIndex = Math.floor(Math.random() * restaurants.length);
-            const restaurant = restaurants[randomIndex];
-            updateRestaurantInfo(restaurant);
-        })
-        .catch(error => console.error('Error loading restaurant data:', error));
+    // Updated to use your specific Netlify site URL
+    fetch('https://rando-resto.netlify.app/.netlify/functions/fetch-restaurants')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(restaurants => {
+        const randomIndex = Math.floor(Math.random() * restaurants.length);
+        const restaurant = restaurants[randomIndex];
+        updateRestaurantInfo(restaurant);
+    })
+    .catch(error => console.error('Error loading restaurant data:', error));
 }
 
 function updateRestaurantInfo(restaurant) {
     const img = document.getElementById('restaurantImage');
-    // Construct the image source using the name from Airtable and the local /img directory
-    img.src = `/img/${restaurant['photo reference']}.jpg`; // Adjust as necessary
+    // Ensure the path to your images is correct based on how you store them in your project
+    img.src = `/img/${restaurant['photo reference']}.jpg`; // Assuming images are stored in the '/img' directory
     img.alt = restaurant.name;
 
     document.getElementById('restaurantName').textContent = restaurant.name;
